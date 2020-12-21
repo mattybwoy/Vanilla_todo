@@ -6,10 +6,3 @@ describe ('#Note', () => {
     expect(note.todo).toBe("Buy the milk")
   })
 })
-
-// describe('#MyNotes', () => {
-//   test('It has a name', () => {
-//     let note = new Note("Matthew")
-//     expect(note.name).toBe("Matthew")
-//   })
-// });
