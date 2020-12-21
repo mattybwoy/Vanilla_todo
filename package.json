@@ -1,0 +1,27 @@
+{
+  "name": "vanilla_todo",
+  "version": "1.0.0",
+  "description": "User Stories",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattybwoy/Vanilla_todo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattybwoy/Vanilla_todo/issues"
+  },
+  "homepage": "https://github.com/mattybwoy/Vanilla_todo#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.9.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "esm": "^3.2.25",
+    "jest": "^26.6.3"
+  }
+}
