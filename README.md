@@ -18,7 +18,7 @@ So I can see all the information in the note
 ```
 
 ## Objective
-Revisiting a Makers challenge presented in week 7 to create a single page app using Pure Javascript
+Revisiting a Makers challenge presented in week 7 to create a single page todo app using Pure Javascript
 
 ## Progress 
 
