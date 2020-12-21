@@ -22,11 +22,12 @@ Revisiting a Makers challenge presented in week 7 to create a single page todo a
 
 ## Progress
 - Note class created
+- NoteList class created
 
 ## Improvements
 
 ## Testing (JEST)
-1 Pass
+3 Pass
 
 ## Installation
 - git clone into repository
