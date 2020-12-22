@@ -1,5 +1,7 @@
+import { Note } from "../src/note";
+
 export default class NoteList {
-  constructor(noteArray) {
+  constructor() {
     this.noteArray = [];
   }
 

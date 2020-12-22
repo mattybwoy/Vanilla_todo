@@ -27,7 +27,7 @@ Revisiting a Makers challenge presented in week 7 to create a single page todo a
 ## Improvements
 
 ## Testing (JEST)
-3 Pass
+4 Pass
 
 ## Installation
 - git clone into repository

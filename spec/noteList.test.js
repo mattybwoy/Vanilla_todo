@@ -1,4 +1,5 @@
 import NoteList from "../src/noteList"
+import Note from "../src/note"
 
 describe("#NoteList", () => {
   it("Displays empty list if no notes are inside", () => {
@@ -8,7 +9,8 @@ describe("#NoteList", () => {
   
   it("Displays list of 1 note when user adds first item to list", () => {
     let noteList = new NoteList()
-    noteList.add("Buy bread")
+    noteList.add("buy bread")
+    expect(noteList.noteArray).toContain("buy bread")
     expect(noteList.noteArray.length).toEqual(1)
   })
 })
