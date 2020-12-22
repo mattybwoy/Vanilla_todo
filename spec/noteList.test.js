@@ -1,5 +1,4 @@
 import NoteList from "../src/noteList"
-import Note from "../src/note"
 
 describe("#NoteList", () => {
   it("Displays empty list if no notes are inside", () => {

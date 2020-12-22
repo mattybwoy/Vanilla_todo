@@ -1,4 +1,4 @@
-import { Note } from "../src/note";
+//import { Note } from "../src/note";
 
 export default class NoteList {
   constructor() {

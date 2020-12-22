@@ -7,10 +7,23 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="">
+    <script src="./src/noteList.js"></script>
   </head>
+
   <body>
     <h2>Notey Notes</h2>
-    
-    <script src="" async defer></script>
+    <h3>Enter your notes below</h3>
+
+    <textarea maxlength="250" rows="10" cols="50" id="user_input" placeholder="Enter text here..."></textarea>
+    <br>
+    <input id= "createNote" type="button" value="Submit"></input>
+      
+    <div id="display"></div>
+    <a id = "notesList"></a>
+
+    <ul class="noteyList"></ul>
+
+    <script src="./interface.js" async defer></script>
   </body>
+
 </html>
