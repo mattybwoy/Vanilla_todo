@@ -13,4 +13,10 @@ describe("#NoteList", () => {
     expect(noteList.noteArray).toContain("buy bread")
     expect(noteList.noteArray.length).toEqual(1)
   })
+
+  it("Displays first 20 characters of note", () => {
+    let noteList = new NoteList()
+    noteList.add("buy bread and milk and juice")
+    expect(noteList.sliceArray).toContain("buy bread and milk a")
+  })
 })
