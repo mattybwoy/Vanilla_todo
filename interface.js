@@ -9,10 +9,14 @@ btn.addEventListener("click", add);
 window.addEventListener("hashchange", displayFull);
 
 function add() {
+  if (document.getElementById("user_input").value == '') {
+    window.alert("Note cannot be empty")
+  } else {
     noteList.add(document.getElementById("user_input").value);
     document.getElementById("user_input").value = "";
     displayNote();
   }
+}
 
   function displayNote() {
     let notesList = document.getElementById("notesList");
