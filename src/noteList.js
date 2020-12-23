@@ -1,6 +1,6 @@
 //import { Note } from "../src/note";
 
-export default class NoteList {
+class NoteList {
   constructor() {
     this.noteArray = [];
     this.sliceArray = [];

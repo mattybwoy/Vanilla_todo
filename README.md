@@ -23,6 +23,8 @@ Revisiting a Makers challenge presented in week 7 to create a single page todo a
 ## Progress
 - Note class created
 - NoteList class created
+- Interface created
+- HTML displaying shorthand notes list
 
 ## Improvements
 

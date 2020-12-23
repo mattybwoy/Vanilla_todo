@@ -1,22 +1,19 @@
-import { NoteList } from "./src/noteList";
+//import { NoteList } from "./src/noteList";
 
 let noteList = new NoteList();
-// window.addEventListener('DOMContentLoaded', (event) => {
-//     let noteList = new NoteList();
-// });
+
 
 let btn = document.getElementById("createNote");
 btn.addEventListener("click", add);
 
 function add() {
-  console.log("hi")
     noteList.add(document.getElementById("user_input").value);
     document.getElementById("user_input").value = "";
     displayNote();
   }
 
   function displayNote() {
-    var notesList = document.getElementById("display");
+    var notesList = document.getElementById("notesList");
     var li = document.createElement("a");
     var br = document.createElement("br");
     li.setAttribute('id',(noteList.noteArray.length -1));
