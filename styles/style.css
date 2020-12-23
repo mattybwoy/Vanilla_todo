@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+#noteTitle {
+  text-align: center;
+}
+
+#header3 {
+  text-align: center;
+}
+
+#form {
+  text-align: center;
+}
+
+#user_input {
+  text-align: center;
+}
+
+#display {
+  text-align: center;
+}
+
+#displayNoteHeading {
+  text-align: center;
+}
+
+#displayNote {
+  text-align: center;
+}
+
+footer {
+  font-size: 10px;
+  font-family: 'Press Start 2P', cursive;
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
