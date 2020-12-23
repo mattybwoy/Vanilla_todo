@@ -1,18 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Poppins:wght@300;400&display=swap');
+* {
+  background-color:blanchedalmond;
+  font-family: 'Poppins',
+  sans-serif;
+}
+
 #noteTitle {
   text-align: center;
+  font-family: 'Bungee Outline',
+  cursive;
+  font-size:100px
 }
 
 #header3 {
+  font-size: 40px;
   text-align: center;
 }
 
 #form {
+  border: 2px black;
+  border-radius: 4px;
   text-align: center;
 }
 
 #user_input {
+  border: 3px solid #cccccc;
+  padding: 5px;
   text-align: center;
 }
 

@@ -29,3 +29,7 @@ function add() {
   function displayFull() {
     document.getElementById("displayNote").innerHTML = noteList.noteArray[location.hash.substr(1)]
   }
+
+  function setbg(color) {
+    document.getElementById("user_input").style.background=color
+  }
