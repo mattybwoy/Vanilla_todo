@@ -1,4 +1,4 @@
-# Vanilla ToDo App
+# Vanilla JS Note App
 
 User Stories
 
@@ -28,6 +28,8 @@ Revisiting a Makers challenge presented in week 7 to create a single page todo a
 - Alert popup when note is empty
 
 ## Improvements
+- Hover transitions
+- When note is over 20 chars it does not show up in full note display
 
 ## Testing (JEST)
 5 Pass
