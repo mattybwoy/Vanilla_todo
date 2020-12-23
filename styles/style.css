@@ -13,7 +13,8 @@
   text-align: center;
   font-family: 'Bungee Outline',
   cursive;
-  font-size:100px
+  font-size:100px;
+  margin-bottom: 10px;
 }
 
 #header3 {
@@ -22,15 +23,20 @@
 }
 
 #form {
-  border: 2px black;
+  border: 10px black;
   border-radius: 4px;
   text-align: center;
 }
 
 #user_input {
-  border: 3px solid #cccccc;
+  border: 3px solid black;
   padding: 5px;
   text-align: center;
+}
+
+#createNote {
+  padding: 5px;
+  border: 2px solid black;
 }
 
 #display {
@@ -38,7 +44,9 @@
 }
 
 #displayNoteHeading {
+  margin-top: 100px;
   text-align: center;
+  font-size: large;
 }
 
 #displayNote {
