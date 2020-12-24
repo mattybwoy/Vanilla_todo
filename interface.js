@@ -1,5 +1,3 @@
-//import { NoteList } from "./src/noteList";
-
 let noteList = new NoteList();
 
 
@@ -23,7 +21,6 @@ function add() {
     let li = document.createElement("a");
     let br = document.createElement("br");
     li.setAttribute('id',(noteList.noteArray.length -1));
-    li.setAttribute('class', 'noteyList');
     li.setAttribute('href',('#'+(noteList.noteArray.length -1)));
     li.appendChild(document.createTextNode(noteList.sliceArray[noteList.sliceArray.length -1]));
     notesList.appendChild(li);
@@ -35,5 +32,5 @@ function add() {
   }
 
   function setbg(color) {
-    document.getElementById("user_input").style.background=color
+    document.getElementById("user_input").style.background = color
   }

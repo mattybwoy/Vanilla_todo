@@ -11,6 +11,7 @@
     <style>
       h2:hover {background-color: black; color: crimson;}
       input:hover {background-color:crimson;}
+      a:hover {background-color: crimson;}
     </style>
   </head>
 
@@ -20,7 +21,7 @@
     <h3 id="header3">Enter your notes below</h3>
 
     <form id="form">
-    <textarea maxlength="250" onfocus="this.value=''; setbg('#faffe5');" onblur="setbg('white')"rows="5" cols="40" id="user_input" placeholder="Enter text here..."></textarea>
+    <textarea id="user_input" maxlength="250" onfocus="this.value=''; setbg('#faffe5');" onblur="setbg('white')"rows="5" cols="40" placeholder="Enter text here..."></textarea>
     <br>
     <br>
     <input id= "createNote" type="button" value="Submit"></input>
@@ -28,7 +29,6 @@
 
     <div id="display">
       <a id = "notesList"></a>
-      <ul class="noteyList"></ul>
     </div>
 
     <div id="displayNoteHeading">Here is your note:</div>

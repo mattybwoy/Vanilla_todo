@@ -21,18 +21,18 @@ So I can see all the information in the note
 Revisiting a Makers challenge presented in week 7 to create a single page todo app using Pure Javascript
 
 ## Progress
-- Note class created
 - NoteList class created
 - Interface created
 - HTML displaying shorthand notes list
+- Full note now displayed when clicked
 - Alert popup when note is empty
 
 ## Improvements
-- Hover transitions
-- When note is over 20 chars it does not show up in full note display
+- Use EventListeners for hover
+- Testing frontend components
 
 ## Testing (JEST)
-5 Pass
+3 Pass
 
 ## Installation
 - git clone into repository
