@@ -39,6 +39,11 @@ Revisiting a Makers challenge presented in week 7 to create a single page todo a
 - ```npm install```
 - Type into terminal to launch ```open index.html```
 
+## Screenshots
+![note](./images/note1.png)
+Default screen
+![1note](./images/note2.png)
+Screen after adding 1 note
 
 ## Collaborators
 mattybwoy
