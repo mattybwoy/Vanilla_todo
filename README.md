@@ -1,6 +1,11 @@
-# Vanilla JS Note App
+<h1 align="center">
+  Vanilla JS Note App
+</h1>
 
-User Stories
+## Objective
+Revisiting a Makers challenge presented in week 7 to create a single page todo app using Pure Javascript
+
+## User Stories
 
 ```
 As a programmer
@@ -16,9 +21,6 @@ I can see the full text of an individual note on its own page
 So I can see all the information in the note
 
 ```
-
-## Objective
-Revisiting a Makers challenge presented in week 7 to create a single page todo app using Pure Javascript
 
 ## Progress
 - NoteList class created
